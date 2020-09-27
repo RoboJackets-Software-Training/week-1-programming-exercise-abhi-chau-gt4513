@@ -58,7 +58,7 @@ int main() {
   std::cout << "}" << std::endl;
 
   int packing_size = (w.size() - 1) / 2;      // The packing size is how far the first element of w is away from the center of w, which the kernel is focused on.
-  // std::cout << "y: {" ;
+  std::cout << "{" ;
   for (int i = 0; i < x.size(); i++) {
     double sum = 0;
     for (int j = 0; j < w.size(); j++) {
