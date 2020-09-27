@@ -40,9 +40,9 @@ int main() {
   std::cout << "x: {" ;
   for (int i = 0; i < x.size(); i++) {
     if (i == x.size() - 1) {
-      std::cout << w[i];
+      std::cout << x[i];
     } else {
-      std::cout << w[i] << ",";
+      std::cout << x[i] << ", ";
     }
   }
   std::cout << "}" << std::endl;
@@ -52,7 +52,7 @@ int main() {
     if (i == w.size() - 1) {
       std::cout << w[i];
     } else {
-      std::cout << w[i] << ",";
+      std::cout << w[i] << ", ";
     }
   }
   std::cout << "}" << std::endl;
@@ -74,7 +74,7 @@ int main() {
     if (i == x.size() - 1) {
       std::cout << y[i];
     } else {
-      std::cout << y[i] << ",";
+      std::cout << y[i] << ", ";
     }
     
   }
